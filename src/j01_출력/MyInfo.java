@@ -22,7 +22,7 @@ public class MyInfo {
 		System.out.print("주소: ");
 		System.out.println(address);
 
-		
+		// 실행 ctrl + F11
 	}
 
 }
