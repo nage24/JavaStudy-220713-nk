@@ -14,6 +14,25 @@ public class StringBuilder_practice {
 		
 		// 이름을 
 		// stringBuilder.append();
+		
+		stringBuilder.append(family.substring(index - 3, index));
+		stringBuilder.append("/");
+		
+		index = family.indexOf("와", index+1);
+		stringBuilder.append(family.substring(index - 3, index));
+		stringBuilder.append("/");
+		
+		index = family.indexOf("과", index+1);
+		stringBuilder.append(family.substring(index - 3, index));
+		stringBuilder.append("/");
+		
+		index = family.indexOf(" 가족", index+1);
+		stringBuilder.append(family.substring(index - 3, index));
+		
+		System.out.println(stringBuilder.toString());
+		
+		
+		
 	}
 
 }

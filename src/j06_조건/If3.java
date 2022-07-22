@@ -21,7 +21,15 @@ public class If3 {
 		}
 
 	System.out.println("x: "+x);System.out.println("y: "+y);System.out.println("결과: "+result);
-
+	
+	result = (x > 0 && y > 0 ? "1 사분면"
+			: (x < 0 && y > 0) ? "2 사분면"
+            : (x < 0 && y < 0) ? "3 사분면"
+            : (x > 0 && y < 0) ? "4 사분면"
+            : (x == 0 || y == 0) ? "원점입니다" : "error");
+            
+	System.out.println("결과: " + result);
+	
 }
 
 }

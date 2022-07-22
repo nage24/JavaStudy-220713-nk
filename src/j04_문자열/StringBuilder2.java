@@ -41,7 +41,7 @@ public class StringBuilder2 {
 		
 		stringBuilder2.append(names);
 		
-		index2 = stringBuilder2.indexOf("님" ); // delete는 삭제되므로 굳이 +를 붙여줄 필요가 없습니다. 앞의 '님'은 지워진 상태가 될 거에요. 
+		index2 = stringBuilder2.indexOf("님"); // delete는 삭제되므로 굳이 +를 붙여줄 필요가 없습니다. 앞의 '님'은 지워진 상태가 될 거에요. 
 		stringBuilder2.delete(index2, index2 + 3); 
 		
 		index2 = stringBuilder2.indexOf("님");

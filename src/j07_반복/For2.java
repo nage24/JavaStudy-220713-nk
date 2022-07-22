@@ -16,7 +16,7 @@ public class For2 {
 		for (int num1 = 2; num1 < 10; num1++) {
 			System.out.println("\n" + num1 + "단을 출력합니다. ");
 			for (int i = 1; i < 10; i++) {
-				System.out.println(num1 + " x " + i + " = " + (num1 + i));
+				System.out.println(num1 + " x " + i + " = " + (num1 * i));
 			}
 
 			// 강사님 코드 참고 ;; 

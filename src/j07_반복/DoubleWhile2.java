@@ -35,18 +35,18 @@ public class DoubleWhile2 {
 
 		while (lesson < 4) {
 
-			System.out.println((lesson + 1) + "교시");
+			System.out.println(lesson + 1 + "교시");
 			int i = 0;
 
-			while (i < 60) {
+			while (i < 60) {	// 60분이니까 60번 반복. 
 				if (i < 50) {
-					System.out.println("\t" + (i + 1) + "분");
+					System.out.println("\t" + i + 1 + "분");
 					i++;
 				} else if (i == 50) {
 					System.out.println("10분 쉬는 시간");
 					i++;
 				} else {
-					System.out.println("\t" + ((i + 1) - 50) + "분 쉬는 시간");
+					System.out.println("\t" + (i - 50 + 1) + "분 쉬는 시간");
 					i++;
 				}
 
