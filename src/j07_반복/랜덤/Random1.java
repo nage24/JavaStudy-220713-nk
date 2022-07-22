@@ -32,7 +32,7 @@ public class Random1 {
 		Random random = new Random(); // ctrl + space바 해서 import 해줘야함.
 		
 		while (i < 10) {
-			int rNum = random.nextInt(10); // 100 안의 숫자에서 랜덤 숫자를 봅아줌
+			int rNum = random.nextInt(10); // 10 안의 숫자에서 랜덤 숫자를 봅아줌
 			System.out.println("현재 temp 값: " + temp);
 			System.out.println("새로 생성된 값: " + rNum); // Alt 누르고 위아래 누르면 줄 바꿔줌
 			

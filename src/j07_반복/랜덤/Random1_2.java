@@ -34,7 +34,7 @@ public class Random1_2 {
 //				if(max < a) {
 //					max = a;
 //				}
-			}else if(max < b) {
+			}else if(max < b) { // 아니면 b가 a보다 크단 거
 					max = b;
 				}
 			

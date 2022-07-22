@@ -30,7 +30,7 @@ public class For3 {
 		}
 		
 		
-		String address = "부산 동래구 사직동 중앙대로";
+		String address = "너와 나의 연결 고리 이건 우리 안의 소리";
 		
 		for(int i = 0; i < address.length(); i++) {
 			String subStr = address.substring(i, i + 1); 	// 한 글자씩 잘라줄 겁니다. 
@@ -39,6 +39,7 @@ public class For3 {
 			if(subStr.equals(" ")) { 		// 요 문자열이랑 내 문자열이랑 같은지를 비교하는 겁니다. ;띄어쓰기가 찾으면 true가 되면서 글자를 잘라줄 겁니다. 
 				int index = 0;				// 인덱스 초기화
 				String temp = address.substring(0,i);		// temp에다가 기존 address에서 substring을 해 줄겁니다. i 번째라는 건 띄어쓰기까지가 되겠죠
+				System.out.println(temp + "-> 첫번째if");
 				
 				if(temp.contains(" ")) {    // contains 는 띄워쓰기(안에 인자)가 있으면 트루가 됨. 
 					index = temp.lastIndexOf(" ") + 1; 		// 뒤에서부터 띄어쓰기 찾아주기
