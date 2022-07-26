@@ -5,7 +5,7 @@ public class ConstructorEx2 {
 	int age;
 	
 	public ConstructorEx2() {
-
+		// TODO Auto-generated constructor stub
 	}
 	
 	public ConstructorEx2(String name) {

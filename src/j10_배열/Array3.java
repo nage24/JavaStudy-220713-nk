@@ -48,13 +48,8 @@ public class Array3 {
 			if(students[i] != null) {
 				System.out.println("이름: " + students[i].getName()); 	// 우린 더 실행할 로직이 없으니 눌이 아닐때 실행하라는 구문이 더 적합하겠죠
 																		// 더 실행해야 할 때 continue 를 쓰는게 맞습니다. 
-			}
+			 }
 		}
-		
-		
-		
-		
-		
 		
 	}
 

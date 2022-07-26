@@ -22,7 +22,7 @@ public class Method2 {
 	// 반환이 없고 매개변수가 하나이 메소드 
 	
 	public static void test2(int num) {
-		System.out.println("num" + num);
+		System.out.println("num: " + num);
 		System.out.println("test2 메소드 호출");
 	}
 	
@@ -50,7 +50,7 @@ public class Method2 {
 	public static String test5(String name, int index) {
 		System.out.println("name: " + name);
 		System.out.println("index: " + index);
-		System.out.println("test5 메소드 호출");
+		System.out.println("test5 메소드 호출\n");
 		return name + index;
 		
 	}
@@ -87,8 +87,8 @@ public class Method2 {
 		System.out.println(a);
 		System.out.println(test4());
 		
-		String result = test5("김준일", 1);
-		System.out.println(result);
+		String result = test5("신짱구", 1);
+		System.out.println(result + "\n");
 		System.out.println(result);
 		System.out.println(result);
 		

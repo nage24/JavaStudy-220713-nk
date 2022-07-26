@@ -23,6 +23,8 @@ public class Car {
 	public Car() { //오버로딩 시 기본생성자 는 비활성화 되기 때문에 넣어주면 댑니다 . 
 		
 	}
+	
+	
 
 	public Car(String company, String model, String color) {
 		this.company = company;
