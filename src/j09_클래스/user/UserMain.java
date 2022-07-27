@@ -13,6 +13,7 @@ public class UserMain {
 	 * User
 	 * UserService
 	 */
+	
 	public static void main(String[] args) {
 		
 		int userCount = 2;
@@ -22,8 +23,8 @@ public class UserMain {
 		
 		UserService service = new UserService(userArray);
 		
-		while(service.register()) {}
-			System.out.println("회원가입 창을 닫습니다.");
+		while(service.showMain()) {};
+		// while(service.register()) {};
 		
 	}
 

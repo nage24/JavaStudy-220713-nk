@@ -49,5 +49,11 @@ public class User {
 		this.email = email;
 	}
 	
+	public String showUser() {
+		return "User [username= " + userName 
+				+ ", password= " + password 
+				+ ", name= " + name
+				+ ", email= " + email;
+	}
 	
 }
