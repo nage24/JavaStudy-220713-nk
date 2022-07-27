@@ -20,6 +20,10 @@ public class AnimalMain {
 		Animal animal2 = human1;
 		//human1.readBooks();
 		
+		//Animal human1 = human1; 		// 오류남
+		
+		
+		
 		animal2.move();
 		//animal2.readBooks();
 		
