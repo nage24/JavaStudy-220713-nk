@@ -60,12 +60,12 @@ public class StudentService {
 	private Student addStudent() {
 		// 배열에 착착 집어넣는 로직이 필요함. 
 		
-		for(int i = 0; i < studentArray.length; i++) {
-			if(studentArray[i] != null) {
+		for(int i = 0; i < studentArray.length; i++) {	// null 값이 아닐 때 라는 건 주소값을 취할 때 라는 거임. null값은 주소값이 없음. 
+			if(studentArray[i] != null) {				// null값이라는 건 배열 자리가 없다는 것. 그니까 널 값이 아니면 배열 공간이 있다는 거지요 머라는거임 ㅡㅡ 왜 ==null 하면 등록할수가 없대?
 				continue;
 			}
 			studentArray[i] = inputStudent();		// null이 없다는 건 자리가 없다는 것임. 근데 자리가 있다고 하면 해당 자리에 학생을 넣어줄 수 있겠죠
-			System.out.println("[ " + studentArray[i].getStudentName() + " ] 학생 등록 완료");	//	그리고 null이면 학생입력을 받겠죠 
+			System.out.println("[ " + studentArray[i].getStudentName() + " ] 학생 등록 완료");	
 			return studentArray[i];
 		}
 		
