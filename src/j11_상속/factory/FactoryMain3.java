@@ -25,6 +25,10 @@ public class FactoryMain3 {
 		SamsungFactory sFactory = new SamsungFactory(1);
 		Factory f = sFactory;
 		
+		// Factory f2 = new Factory(1);
+		// SamsungFactory sF2 = (SamsungFactory) f2; // 이거 안 됨. 
+		
+		
 		
 		
 		

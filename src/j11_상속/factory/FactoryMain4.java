@@ -24,8 +24,9 @@ public class FactoryMain4 {
 				samsungFactory.produceSmartPhone();
 				
 			}else if(factories[i] instanceof LGfactory) {
-				LGfactory lgFactory = (LGfactory) factories[i];
-				lgFactory.produceSmartTv();
+//				LGfactory lgFactory = (LGfactory) factories[i];
+//				lgFactory.produceSmartTv();
+				((LGfactory) factories[i]).produceSmartTv();
 				
 			}else {
 				System.out.println("형변환 불가");
