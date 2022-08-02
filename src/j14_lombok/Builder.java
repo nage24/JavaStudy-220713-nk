@@ -4,19 +4,19 @@ public class Builder extends CarBuilder {
 	
 	@Override
 	public CarBuilder company(String company) {
-		car.setModel(company);
-		return null;
+		car.setCompany(company);
+		return this;
 	}
 	
 	@Override
 	public CarBuilder model(String model) {
 		car.setModel(model);
-		return null;
+		return this;
 	}
 	
 	@Override
 	public CarBuilder color(String color) {
 		car.setColor(color);
-		return null;
+		return this;
 	}
 }

@@ -2,9 +2,9 @@ package j14_lombok;
 
 public abstract class CarBuilder {
 	
-	protected Car car;
+	protected Car car;		// 같은 패키지 내에서는 호출 가능.
 	
-	public Car getCar() {
+	public Car build() {
 		return car;
 	}
 	
