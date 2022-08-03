@@ -22,13 +22,13 @@ public class Student {
 			return false;
 		
 		Student student = (Student) obj;
-//		boolean result = studentCode == student.studentCode
-//				// && name.equals(student.name)
-//				&& Objects.equals(name, student.name);
-//		
-//		return result;
+		boolean result = studentCode == student.studentCode
+				// && name.equals(student.name)
+				&& Objects.equals(name, student.name);
 		
-		return false;
+		return result;
+		
+		// return false;
 	}
 
 	@Override

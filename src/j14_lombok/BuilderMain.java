@@ -14,11 +14,11 @@ public class BuilderMain {
 		
 		
 		// builder 패턴 말고 기존 방식
-		Car car2 = new Car();
-		car2.setCompany("현대");
-		car2.setModel("동가링");
-		car2.setColor("깜장");
-		System.out.println(car2);
+//		Car car2 = new Car();
+//		car2.setCompany("현대");
+//		car2.setModel("동가링");
+//		car2.setColor("깜장");
+//		System.out.println(car2);
 		
 		// 이 방식으로 하면 빈 주소를 만들고 값을 넣어줘야 하지만, 
 		// 빌드 패턴을 사용하면 무조건 값을 넣고 온전하게 만들어줄 수 있다. 
