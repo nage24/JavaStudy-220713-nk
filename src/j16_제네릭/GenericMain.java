@@ -10,6 +10,8 @@ public class GenericMain {
 		genericTest.setKey(100);
 		genericTest.setValue("원");
 		
+		
+		System.out.println(genericTest.equals(genericTest2));
 		System.out.println(genericTest.getKey() + genericTest.getValue());
 	}
 }
