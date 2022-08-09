@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class User {
+public class User { 
 	private String username;
 	private String password;
 	private String roles;
