@@ -75,7 +75,7 @@ public class StringHashSet {
 		while(ir2.hasNext()) {
 			Student student = ir2.next();
 			if(student.getName().equals("서재효")) {
-				System.out.println(student);
+				System.out.println(student + "를 삭제합니다.");
 				studentSet.remove(student);
 				break;
 			}
