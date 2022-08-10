@@ -11,7 +11,10 @@ public class Gson2 {
 				.excludeFieldsWithoutExposeAnnotation()
 				.serializeNulls()
 				.setPrettyPrinting()
-				.create(); // serializeNulls() ; 
+				.create(); // serializeNulls() ;Gson 객체를 생성할 때, serializeNulls 옵션을 추가하면,
+		// Json 문자열로 변환될 객체의 field 값이 null일 경우,
+		// null인 field도 Json의 property로 생성합니다.
+		
 		
 		
 		// 객체를 JSON으로 변환 -> toJson(객체)
