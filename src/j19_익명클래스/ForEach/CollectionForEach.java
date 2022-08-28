@@ -19,16 +19,18 @@ public class CollectionForEach {
 		
 		System.out.println(strList);
 
-		for(String str : strList) {
-			System.out.println(str);
-		}
+//		for(String str : strList) {
+//			System.out.println(str);
+//		}
 		
 		
 		// for each 위나 아래로 스면 되는데 쓰다보면 밑에께 편해질 것임 .. 라고 하심.. 
 		
+		strList.forEach(str -> System.out.println(str));
+		
 		Consumer<String> consumer = str -> {
 			System.out.println(str);
-			};	// 리턴없으면 일단 중괄호 !! 람다식
+			};	// 리턴있으면 일단 중괄호 !! 람다식
 		
 		strList.forEach(consumer);
 	
@@ -52,10 +54,7 @@ public class CollectionForEach {
 			map.put(Character.toString((char) (97+i)), 97+i);
 		}
 	
-		map.forEach((k, v) -> {
-			System.out.println("KEY: " + k);
-			System.out.println("VALUE: " + v);
-		});
+		map.forEach((k, v) -> System.out.println("KEY: " + k + "\t" + "VALUE: " + v));
 		
 	}
 }

@@ -79,7 +79,7 @@ public class main extends JFrame {
 		btnNewButton_1.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
-				System.out.println("확인 버튼 클릭");
+				System.out.println("입력 버튼 클릭");
 			}
 		});
 		btnNewButton_1.addActionListener(new ActionListener() {

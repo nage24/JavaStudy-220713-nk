@@ -17,19 +17,26 @@ import lombok.Data;
 public class User {
 	@Expose(serialize = true, deserialize = true)
 	private int userCode;
+	
 	@SerializedName("userId")						// 필드명 원하는 대로 바꿔주기 @
 	@Expose(serialize = true, deserialize = true)
 	private String username;
-	@Expose(serialize = false, deserialize = true)	// 포함은 true 아니면 false 
+	
+	@Expose(serialize = true, deserialize = true)	// 포함은 true 아니면 false 
 	private transient String password;				// transient json에서 숨겨줌
+	
 	@Expose(serialize = true, deserialize = true)
 	private String name;
+	
 	@Expose(serialize = true, deserialize = false)
 	private String email;
+	
 	@Expose(serialize = true, deserialize = true)
 	private String address;
+	
 	@Expose(serialize = true, deserialize = true)
 	private String phone;
+	
 	@Expose(serialize = true, deserialize = true)
 	private List<String> hobby;
 	
